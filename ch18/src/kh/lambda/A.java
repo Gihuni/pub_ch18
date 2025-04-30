@@ -15,3 +15,8 @@ interface E {
 	// 입력 없고, 리턴 있다
 	int methodE();
 }
+
+interface F {
+	// 입력 있고, 리턴 없다
+	void methodF(int a);
+}
